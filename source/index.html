@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="page">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Sedona</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" sizes="16x16 32x32" type="image/vnd.microsoft.icon">
+    <link rel="icon" href="img/favicon/32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="img/favicon/152.png" sizes="152x152" type="image/png">
+    <link rel="icon" href="img/favicon/favicon.svg" sizes="any" type="image/svg+xml">
   </head>
-  <body>
-    <header class="main-header">
-      <a class="main-header__logo logo">
-        <img class="logo__img" src="" alt="Логотип Sedona" width="186.6px">
-      </a>
+  <body class="page__body">
+    <header class="page__header main-header">
       <nav class="main-header__nav navigation">
         <ul class="navigation__list">
+          <li class="navigation__item navigation__item--logo">
+            <a class="navigation__logo logo">
+              <img class="logo__img" src="img/logotype-desktop.svg" alt="Логотип Sedona" width="186.6px">
+            </a>
+          </li>
           <li class="navigation__item">
             <a class="navigation__link">Главная</a>
           </li>
@@ -27,10 +34,10 @@
       </nav>
     </header>
 
-    <main>
+    <main class="page__main">
       <section class="promo">
         <h2 class="promo__heading visually-hidden">Промо</h2>
-        <img class="promo__img" src="" alt="Промо Sedona" width="100%">
+        <img class="promo__img" src="img/promo-desktop-full@2x.jpg" alt="Промо Sedona" width="1200">
         <p class="promo__main-text main-text">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
         <p class="promo__small-text small-text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
       </section>
@@ -44,7 +51,7 @@
               <p class="feature__number">- №1 -</p>
               <p class="feature__description small-text">Седона не аттракцион для туристов, там течет своя жизнь</p>
             </div>
-            <img class="feature__img" src="" alt="Город Седона" width="67%">
+            <img class="feature__img" src="img/feature-city@2x.jpg" alt="Город Седона" width="67%">
             <ul class="feature__more advantages">
               <li class="advantages__item advantage">
                 <h4 class="advantage__heading main-text">Жилье</h4>
@@ -61,7 +68,7 @@
             </ul>
           </li>
           <li class="features__item feature feature--extended">
-            <img class="feature__img" src="" alt="Мост Дьявола" width="67%">
+            <img class="feature__img" src="img/feature-bridge@2x.jpg" alt="Мост Дьявола" width="67%">
             <div class="feature__info">
               <h3 class="feature__heading main-text">Там есть мост Дьявола</h3>
               <p class="feature__number">- №2 -</p>
@@ -104,7 +111,7 @@
 
     </main>
 
-    <footer class="footer">
+    <footer class="page__footer footer">
       <p class="footer__hashtag main-text">#visitsedona</p>
 
       <section class="footer__social social">
